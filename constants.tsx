@@ -172,22 +172,10 @@ export const BLOG_POSTS: BlogPost[] = [
     description: "Uncovering the hidden microscopic life thriving within deadwood ecosystems."
   },
   {
-    title: "Your Cell's Trash Compactor Is a Superbug-Slaying Superhero🤯!",
-    url: "https://microbialchronicles.blogspot.com/2025/10/your-cells-trash-compactor-is-superbug.html",
-    date: "October 10, 2025",
-    description: "How cellular waste management systems play a crucial role in immune defense."
-  },
-  {
     title: "GUT WAR: The Epic Battle to Save Your Inner Kingdom",
     url: "https://microbialchronicles.blogspot.com/2025/10/gut-war-epic-battle-to-save-your-inner.html",
     date: "October 10, 2025",
     description: "A deep dive into the complex interactions and battles within the human gut microbiome."
-  },
-  {
-    title: "Welcome to the Chronicles: Prepare to Get Infected",
-    url: "https://microbialchronicles.blogspot.com/2025/10/everyone-its-m.html",
-    date: "October 09, 2025",
-    description: "Introduction to Microbial Chronicles - where the microscopic world gets the mega-story treatment."
   }
 ];
 
