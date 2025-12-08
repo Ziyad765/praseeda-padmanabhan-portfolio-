@@ -3,7 +3,7 @@ import { Microscope, Dna, FlaskConical, ClipboardList, Users, PenTool, Database 
 
 export const PERSONAL_INFO = {
   name: "Praseeda Padmanabhan",
-  title: "Microbiologist | Researcher | Biotechnology Enthusiast",
+  title: "Microbiologist | Biotechnology Enthusiast",
   punchline: "Exploring the microscopic world to drive innovations in human health and therapeutics.",
   email: "praseedapadhu@gmail.com",
   phone: "+91 8015927266",
