@@ -116,28 +116,31 @@ export const AWARDS: AwardItem[] = [
     year: "2023",
     description: "Topic: Drug Delivery Methods for Parkinson’s Illness",
     type: "presentation",
-    certificate: ["1.pdf", "2.pdf", "3.pdf", "4.pdf"]
+    certificate: "1.pdf"
   },
   {
     title: "2nd Place – Poster Presentation",
     event: "National Conference on Transforming Healthcare",
     year: "2024",
     description: "Topic: Synergy of Erlotinib & Calcium Channel Blockers in Lung Cancer",
-    type: "presentation"
+    type: "presentation",
+    certificate: "2.pdf"
   },
   {
     title: "Best Paper Award",
     event: "International Conference on Microbial Ecosystem & Biomedicines",
     year: "2024",
     description: "Topic: Green Synthesis & Anti-Microbial Study of Nigella sativa",
-    type: "paper"
+    type: "paper",
+    certificate: "3.pdf"
   },
   {
     title: "Best Paper Award",
     event: "National Conference on Regenerative Medicine",
     year: "2024",
     description: "Topic: Purification & Sequencing of Laccase from Pleurotus ostreatus",
-    type: "paper"
+    type: "paper",
+    certificate: "4.pdf"
   },
   {
     title: "1st Place – Speech Competition",
@@ -149,7 +152,7 @@ export const AWARDS: AwardItem[] = [
     title: "Multiple 2nd Places – Literary & Debate",
     event: "Chennai Literary Festival, D.G. Vaishnav College, Patrician College",
     type: "literary",
-    certificate: ["6.pdf"]
+    certificate: "6.pdf"
   }
 ];
 
