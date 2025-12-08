@@ -17,6 +17,7 @@ export interface ExperienceItem {
   role?: string;
   period: string;
   description: string[];
+  document?: string;
 }
 
 export interface AwardItem {

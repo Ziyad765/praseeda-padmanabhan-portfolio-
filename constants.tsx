@@ -7,7 +7,7 @@ export const PERSONAL_INFO = {
   punchline: "Exploring the microscopic world to drive innovations in human health and therapeutics.",
   email: "praseedapadhu@gmail.com",
   phone: "+91 8015927266",
-  location: "No. 9/224, Anna Street, Nanmangalam, Chennai",
+  location: "No. 9/204, Anna Street, Nanmangalam, Chennai",
   birthplace: "Nizwa, Oman",
   nationality: "Indian",
   currentLocation: "Chennai",
@@ -64,7 +64,8 @@ export const INTERNSHIPS: ExperienceItem[] = [
     description: [
       "Routine microbiology",
       "Sample handling"
-    ]
+    ],
+    document: "https://drive.google.com/file/d/1723rcE2loxez009Y5gDrIiibYmXIdjRa/view?usp=drive_link"
   },
   {
     company: "Priya Diagnostic & Ultrasound Centre Pvt Ltd",
@@ -74,7 +75,8 @@ export const INTERNSHIPS: ExperienceItem[] = [
       "Clinical Biochemistry",
       "Haematology",
       "Clinical Pathology"
-    ]
+    ],
+    document: "https://drive.google.com/file/d/1ilWyc6bPuWFNa0Tyjq8pnEGMobLjt-Gi/view?usp=drive_link"
   }
 ];
 
@@ -90,17 +92,21 @@ export const PUBLICATIONS: PublicationItem[] = [
 ];
 
 export const CERTIFICATES = [
-  { name: "Award Certificate 1-2", file: "Awards 1-2.pdf" },
-  { name: "Award Certificate 1-3", file: "Awards 1-3.pdf" },
-  { name: "Award Certificate 1-4", file: "Awards 1-4.pdf" },
-  { name: "Award Certificate 2-2", file: "Awards 2-2.pdf" },
-  { name: "Award Certificate 2-3", file: "Awards 2-3.pdf" }
+  { name: "Award Certificate 1", file: "1.pdf" },
+  { name: "Award Certificate 2", file: "2.pdf" },
+  { name: "Award Certificate 3", file: "3.pdf" },
+  { name: "Award Certificate 4", file: "4.pdf" },
+  { name: "Award Certificate 5", file: "5.pdf" },
+  { name: "Award Certificate 6", file: "6.pdf" }
 ];
 
 export const GALLERY_IMAGES = [
   "IMG_20250218_180145.jpg",
   "IMG_20250218_180210.jpg",
-  "IMG_20250218_181217.jpg"
+  "IMG_20250218_181217.jpg",
+  "extra_1.jpg",
+  "extra_2.jpg",
+  "extra_3.jpg"
 ];
 
 export const AWARDS: AwardItem[] = [
@@ -110,7 +116,7 @@ export const AWARDS: AwardItem[] = [
     year: "2023",
     description: "Topic: Drug Delivery Methods for Parkinson’s Illness",
     type: "presentation",
-    certificate: ["Awards 1-2.pdf", "Awards 1-3.pdf", "Awards 1-4.pdf"]
+    certificate: ["1.pdf", "2.pdf", "3.pdf", "4.pdf"]
   },
   {
     title: "2nd Place – Poster Presentation",
@@ -137,22 +143,17 @@ export const AWARDS: AwardItem[] = [
     title: "1st Place – Speech Competition",
     event: "Dr. MGR Janaki College",
     type: "speech",
+    certificate: "5.pdf"
   },
   {
     title: "Multiple 2nd Places – Literary & Debate",
     event: "Chennai Literary Festival, D.G. Vaishnav College, Patrician College",
     type: "literary",
-    certificate: ["Awards 2-2.pdf", "Awards 2-3.pdf"]
+    certificate: ["6.pdf"]
   }
 ];
 
-export const OFFERS = [
-  "Microbiology Concept Clarification",
-  "Simplified Science Communication as M. Chronicler",
-  "Academic Guidance & Peer Support",
-  "Basic Lab Protocol Troubleshooting",
-  "Introductory Content Creation"
-];
+export const OFFERS = [];
 
 export const BLOG_POSTS: BlogPost[] = [
   {
@@ -204,8 +205,8 @@ export const SKILLS: SkillCategory[] = [
 
 export const EXTRACURRICULARS = {
   leadership: [
-    { role: "Joint Cultural Secretary", period: "2023–2024" },
-    { role: "Placement Representative", period: "2024–2025" }
+    { role: "Joint Cultural Secretary", period: "2023–2024", document: "https://drive.google.com/file/d/1rEVCR2tCeJ4HpUG-JdBfK0T1RV7dmzM5/view?usp=drive_link" },
+    { role: "Placement Representative", period: "2024–2025", document: "https://drive.google.com/file/d/1UmRo2StncOBbi2ZOhBjkJjG7KmRdUcEG/view?usp=drive_link" }
   ],
   volunteering: [
     "Red Ribbon Club (HIV Awareness, Blood Donation)",

@@ -57,9 +57,16 @@ export const Awards: React.FC = () => {
           </div>
           <ul className="space-y-4">
             {EXTRACURRICULARS.leadership.map((item, idx) => (
-              <li key={idx} className="flex justify-between items-center border-b border-white/10 pb-2">
-                <span>{item.role}</span>
-                <span className="text-sm opacity-70 bg-white/10 px-2 py-1 rounded">{item.period}</span>
+              <li key={idx} className="flex flex-col border-b border-white/10 pb-2 gap-1">
+                <div className="flex justify-between items-center w-full">
+                  <span className="font-medium">{item.role}</span>
+                  <span className="text-sm opacity-70 bg-white/10 px-2 py-1 rounded">{item.period}</span>
+                </div>
+                {item.document && (
+                  <a href={item.document} target="_blank" rel="noopener noreferrer" className="text-xs text-scientific-accent hover:underline flex items-center gap-1 self-start opacity-80 hover:opacity-100">
+                    <Download size={12} /> View Document
+                  </a>
+                )}
               </li>
             ))}
           </ul>
