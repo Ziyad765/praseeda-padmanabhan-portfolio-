@@ -86,7 +86,7 @@ export const PUBLICATIONS: PublicationItem[] = [
     journal: "Acta Scientific Microbiology (ISSN: 2581-3226)",
     volume: "Volume 8 Issue 6 June 2025",
     date: "Published: May 30, 2025",
-    authors: "R Vidhyalakshmi*, Praseeda Padmanabhan, Charmaine Antionette Shu",
+    authors: "R Vidhyalakshmi*, Praseeda Padmanabhan, Charmaine Antionette Shu, Fathima Munavar Ahamed Basheer",
     link: "https://drive.google.com/file/d/1j9K8-NVq51FSE3CF9LNpca2Xr3vUoXp8/view"
   }
 ];
