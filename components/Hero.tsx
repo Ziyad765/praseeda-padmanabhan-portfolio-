@@ -18,7 +18,7 @@ export const Hero: React.FC = () => {
         <div className="order-2 md:order-1 space-y-6">
           <div className="inline-block px-4 py-1 rounded-full bg-scientific-section border border-scientific-secondary/20">
             <span className="text-scientific-secondary font-semibold text-sm tracking-wider uppercase">
-              Microbiologist & Researcher
+              Microbiologist
             </span>
           </div>
 
