@@ -26,7 +26,8 @@ export interface AwardItem {
   description?: string;
   type: 'presentation' | 'paper' | 'speech' | 'literary';
   link?: string;
-  certificate?: string;
+  date?: string;
+  certificate?: string | string[];
 }
 
 export interface BlogPost {

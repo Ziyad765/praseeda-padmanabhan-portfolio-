@@ -33,12 +33,14 @@ export const Awards: React.FC = () => {
                 </p>
               )}
               {award.certificate && (
-                <div className="mt-4 pt-4 border-t border-gray-100">
-                  <a href={`/${award.certificate}`} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-scientific-primary hover:text-scientific-secondary font-medium group/link">
-                    <Award size={16} />
-                    View Certificate
-                    <Download size={14} className="opacity-0 group-hover/link:opacity-100 transition-opacity" />
-                  </a>
+                <div className="mt-4 pt-4 border-t border-gray-100 space-y-2">
+                  {(Array.isArray(award.certificate) ? award.certificate : [award.certificate]).map((cert, i) => (
+                    <a key={i} href={`/${cert}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-scientific-primary hover:text-scientific-secondary font-medium group/link">
+                      <Award size={16} />
+                      View Certificate {Array.isArray(award.certificate) && award.certificate.length > 1 ? i + 1 : ''}
+                      <Download size={14} className="opacity-0 group-hover/link:opacity-100 transition-opacity" />
+                    </a>
+                  ))}
                 </div>
               )}
             </div>

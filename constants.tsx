@@ -90,21 +90,17 @@ export const PUBLICATIONS: PublicationItem[] = [
 ];
 
 export const CERTIFICATES = [
-  { name: "Award Certificate 1", file: "Awards 1.pdf" },
-  { name: "Award Certificate 2", file: "Awards 2.pdf" },
-  { name: "Award Certificate 3", file: "Awards 3.pdf" }
+  { name: "Award Certificate 1-2", file: "Awards 1-2.pdf" },
+  { name: "Award Certificate 1-3", file: "Awards 1-3.pdf" },
+  { name: "Award Certificate 1-4", file: "Awards 1-4.pdf" },
+  { name: "Award Certificate 2-2", file: "Awards 2-2.pdf" },
+  { name: "Award Certificate 2-3", file: "Awards 2-3.pdf" }
 ];
 
 export const GALLERY_IMAGES = [
-  "IMG_20250218_180140.jpg",
   "IMG_20250218_180145.jpg",
-  "IMG_20250218_180147.jpg",
   "IMG_20250218_180210.jpg",
-  "IMG_20250218_181109.jpg",
-  "IMG_20250218_181114.jpg",
-  "IMG_20250218_181115.jpg",
-  "IMG_20250218_181217.jpg",
-  "IMG_20250218_181218.jpg"
+  "IMG_20250218_181217.jpg"
 ];
 
 export const AWARDS: AwardItem[] = [
@@ -114,7 +110,7 @@ export const AWARDS: AwardItem[] = [
     year: "2023",
     description: "Topic: Drug Delivery Methods for Parkinson’s Illness",
     type: "presentation",
-    certificate: "Awards 1.pdf"
+    certificate: ["Awards 1-2.pdf", "Awards 1-3.pdf", "Awards 1-4.pdf"]
   },
   {
     title: "2nd Place – Poster Presentation",
@@ -141,13 +137,12 @@ export const AWARDS: AwardItem[] = [
     title: "1st Place – Speech Competition",
     event: "Dr. MGR Janaki College",
     type: "speech",
-    certificate: "Awards 3.pdf"
   },
   {
     title: "Multiple 2nd Places – Literary & Debate",
     event: "Chennai Literary Festival, D.G. Vaishnav College, Patrician College",
     type: "literary",
-    certificate: "Awards 2.pdf"
+    certificate: ["Awards 2-2.pdf", "Awards 2-3.pdf"]
   }
 ];
 
